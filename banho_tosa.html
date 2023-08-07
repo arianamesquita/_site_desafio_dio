@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetPet - Agendar banho e tosa</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <img src="image/45388.jpg" alt="logomarca com vários bichinhos desenhados"
+                height="190">
+            <ul>
+                <li><a class="principal" href="template.html" target="_self" style="text-decoration: none">VetPet</a><br></li>
+                <br>
+                <li><a href="#medicina_preventiva" target="_self" style="text-decoration: none">Medicina Preventiva</a><br></li>
+                <br>
+                <li><a href="#vacinacao" style="text-decoration: none">Vacinação</a><br></li>
+                <br>
+                <li><a href="#banho_tosa" style="text-decoration: none">Banho e Tosa</a><br></li>
+                <br>
+                <br>
+                <li><a href="banho_tosa.html" target="_self">Agendar banho e tosa</a><br></li>
+                <br>
+                <br>
+                <li><a href="clinica_info.html">Sobre a clínica</a></li>
+                <br>
+                <br>
+                <li><a href="atendimento_contatos.html">Horário de Atendimento e Contatos</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <header id="image">
+                    <img src="image/pexels-tima-miroshnichenko-6131165.jpg" alt="veterinário cuidando de um pet doente"
+                        height="600" style="vertical-align: middle;margin:10px 10px 10px 100px">
+                </header>
+            </div>
+    
+            <div class="content">
+                <h2 class="orientacao">Vamos agendar o banho do seu Pet?</h2>
+                <form onsubmit="" method="get">
+                    <label for="name_pet">Nome do Pet: </label><input type="text" name="nome_pet"><br>
+                    <label for="name_tutor">Nome do Tutor do Pet: </label><input type="text" name="nome_pet"><br>
+                    <label for="data">Data para o banho: </label><input type="date"><br>
+                    <label for="hora">Hora para o banho: </label><input type="time"><br>
+                    <label class="orientacao"> Horas aceitas somente com final 00 ou 30.</label><br>
+                    <br>
+                    <input class="radio" type="radio" name="Banho" value="Banho com tosa">Banho com tosa <br>
+                    <input class="radio" type="radio" name="Banho" value="Banho sem tosa">Banho sem tosa <br>
+                    <input class="checkbox" type="checkbox" name="Tosa higiênica" id="tosa_hig">Tosa Higiênica <br>
+                    <br>
+                    <button class="agendar_button" type="submit">Agendar horário</button><br>
+                    <br>
+                    <label class="orientacao">Confirmaremos o seu horário via WhatsApp!!</label>
+                </form>
+                
+            </div>
+    
+            <div class="footer">
+                <p class="endereco">
+                    Endereço: Av. Castelo Branco, n. 5.500 - Centro - Pires do Rio/GO.<br>
+                    <br>
+                    Telefones de Contato: (64) 3091-7070 - fixo e WhatsApp da loja<br>
+                    <span>(64) 3091-7071 - Banho e Tosa WhatsApp<br>
+                        (64) 3091-7072 - Emergências</span>
+                    <br>
+                    <br>
+                    Verifique nossos <a href="atendimento_contatos.html">horários de atendimento.</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
